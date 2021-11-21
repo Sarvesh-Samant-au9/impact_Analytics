@@ -63,11 +63,11 @@ const Candidates = () => {
           ))}
         </div>
       ) : filteredCandidates.length > 0 ? (
-        <>
+        <div className="container_arrange">
           {filteredCandidates.map(({ id, name, Image }) => (
             <CandidateCard id={id} name={name} image={Image} />
           ))}
-        </>
+        </div>
       ) : (
         <>
           <h3>No Such Candidate Available</h3>
