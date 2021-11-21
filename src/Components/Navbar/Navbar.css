@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  height: 10vh;
+  background-color: #5454d4;
+  color: white;
+  align-items: center;
+}
+.navbar_link {
+  text-decoration: none;
+  color: white;
+  padding: none;
+  margin: none;
+}

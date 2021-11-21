@@ -1,0 +1,80 @@
+.user_profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user_profile img {
+  width: 50%;
+  height: 50%;
+  padding-top: 15px;
+  margin: auto;
+  border-bottom: 1px solid red;
+}
+@media screen and (min-width: 768px) {
+  .user_profile img {
+    width: 20%;
+    height: 30%;
+    padding-top: 15px;
+    margin: auto;
+    border-bottom: 1px solid red;
+  }
+}
+.user_name {
+  font-size: 2rem;
+  color: #5454d4;
+  font-weight: 400;
+  text-align: center;
+}
+
+.user_selected {
+  color: green;
+  font-weight: 400;
+  text-align: center;
+}
+.user_rejected {
+  color: red;
+  font-weight: 400;
+  text-align: center;
+}
+.btn_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_shortlist_btn {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(177, 255, 177);
+  color: darkgreen;
+  border: 2px solid darkgreen;
+  transition: all ease-in-out 0.5s;
+}
+.user_shortlist_btn:hover {
+  background-color: rgb(46, 141, 46);
+  color: rgb(172, 255, 172);
+  border: 2px solid rgb(9, 252, 9);
+}
+
+.user_reject_btn {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(255, 177, 177);
+  color: rgb(100, 0, 70);
+  border: 2px solid rgb(100, 0, 0);
+  transition: all ease-in-out 0.5s;
+}
+
+.user_reject_btn:hover {
+  background-color: rgb(100, 0, 70);
+  color: rgb(255, 177, 177);
+  border: 2px solid rgb(235, 107, 2);
+  transition: all ease-in-out 0.5s;
+}

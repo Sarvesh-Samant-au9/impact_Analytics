@@ -1,0 +1,33 @@
+.container_notfound {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container_notfound div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container_notfound div h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  transform: skewY(3deg);
+  color: red;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  border: 2px solid;
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  transition: all ease-in 0.5s;
+}
+.link:hover {
+  background-color: black;
+  color: yellow;
+  border: 2px solid;
+}

@@ -1,0 +1,7 @@
+export const ADD_SHORTLIST = "ADD_SHORTLIST";
+export const REMOVE_SHORTLIST = "REMOVE_SHORTLIST";
+export const ADD_REJECT = "ADD_REJECT";
+export const REMOVE_REJECT = "REMOVE_REJECT";
+export const PARTICULAR_USER = "PARTICULAR_USER";
+export const SEARCH_USER = "SEARCH_USER";
+export const GET_ALL_DATA = "GET_ALL_DATA";

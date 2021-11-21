@@ -1,0 +1,14 @@
+.container_arrange {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.links {
+  text-decoration: none;
+  color: rebeccapurple;
+  padding: 10px;
+}
+.link_group {
+  display: flex;
+  justify-content: center;
+}
